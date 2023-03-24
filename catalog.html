@@ -65,7 +65,6 @@
         <section class="service-catalog">
             <h2 class="visually-hidden">Список услуг с фильтрами</h2>
             <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-
                 <fieldset class="service-catalog-group">
                     <legend class="service-catalog-title">Инфраструктура:</legend>
                     <ul class="catalog-filter-list">
@@ -92,6 +91,26 @@
                 
                 <fieldset class="service-catalog-group">
                     <legend class="service-catalog-title">Тип жилья:</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="service-group" value="hotel" checked>
+                                Гостиница
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="service-group" value="motel">
+                                Мотель
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="radio" name="service-group" value="apartment">
+                                Апартаменты
+                            </label>
+                        </li>
+                    </ul>
                 </fieldset>
 
                 <button class="button" type="submit">Применить</button>
