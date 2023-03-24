@@ -61,6 +61,43 @@
                 </li>
             </ul>
         </header>
+
+        <section class="service-catalog">
+            <h2 class="visually-hidden">Список услуг с фильтрами</h2>
+            <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+                <fieldset class="service-catalog-group">
+                    <legend class="service-catalog-title">Инфраструктура:</legend>
+                    <ul class="catalog-filter-list">
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="pool" checked>
+                                Бассейн
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="parking" checked>
+                                Парковка
+                            </label>
+                        </li>
+                        <li class="catalog-filter-item">
+                            <label class="control">
+                                <input class="control-input" type="checkbox" name="wi-fi" checked>
+                                Wi-Fi
+                            </label>
+                        </li>
+                    </ul>
+                </fieldset>
+                
+                <fieldset class="service-catalog-group">
+                    <legend class="service-catalog-title">Тип жилья:</legend>
+                </fieldset>
+
+                <button class="button" type="submit">Применить</button>
+                <button class="button" type="submit">Сбросить</button>
+            </form>
+        </section>
     </main>
 
     <section class="subscribe">
