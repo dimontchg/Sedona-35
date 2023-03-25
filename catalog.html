@@ -115,6 +115,24 @@
                     </ul>
                 </fieldset>
 
+                <!-- По этой форме есть вопросы -->
+                <fieldset class="catalog-filter-group">
+                    <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                    <button class="range-toogle toogle-min" type="button">
+                        <span class="visually-hidden">Изменить минимальную цену.</span>
+                    </button>
+                    <button class="range-toogle toogle-max" type="button">
+                        <span class="visually-hidden">Изменить максимальную цену.</span>
+                    </button>
+                    <label>
+                        <input class="catalog-filter-input" type="number" name="min-price"> от
+                    </label>
+                    <label>
+                        <input class="catalog-filter-input" type="number" name="max-price"> до
+                    </label>
+                </fieldset>
+                <!-- По этой форме есть вопросы -->
+
                 <button class="button" type="submit">Применить</button>
                 <button class="button" type="submit">Сбросить</button>
             </form>
