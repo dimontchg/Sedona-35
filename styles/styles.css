@@ -21,3 +21,69 @@ body {
   color: #333333;
   background-color: #FFFFFF;
 }
+
+/*====================================== page-header =============================================*/
+/*-------------------------------------- page-header ---------------------------------------------*/
+/*====================================== page-header =============================================*/
+
+.page-header {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/*====================================== main-index =============================================*/
+/*-------------------------------------- main-index ---------------------------------------------*/
+/*====================================== main-index =============================================*/
+
+.main-index {
+  color: #000000;
+  background-color: #FFFFFF;
+  background-image: url("../images/index-background-opti.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+/* ??????????????????????????????? */
+.hero {
+  color: #000000;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+/* ??????????????????????????????? */
+
+/*====================================== advantages =============================================*/
+
+.advantages-list {
+  text-align: center;
+}
+
+.advantages-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
